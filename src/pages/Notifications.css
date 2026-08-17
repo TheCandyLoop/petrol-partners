@@ -1,0 +1,35 @@
+.notifications-content {
+  padding: 40px 24px 80px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.notifications-heading {
+  margin-bottom: 28px;
+}
+
+.notifications-heading h1 {
+  font-size: 30px;
+  color: var(--color-charcoal);
+  margin-bottom: 8px;
+}
+
+.notifications-tagline {
+  font-size: 15px;
+}
+
+.notifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media (max-width: 640px) {
+  .notifications-content {
+    padding: 28px 20px 56px;
+  }
+
+  .notifications-heading h1 {
+    font-size: 24px;
+  }
+}

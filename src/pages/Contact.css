@@ -1,0 +1,149 @@
+.contact-content {
+  padding: 40px 24px 80px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-heading {
+  max-width: 640px;
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.contact-heading h1 {
+  font-size: 30px;
+  color: var(--color-charcoal);
+  margin-bottom: 10px;
+}
+
+.contact-tagline {
+  font-size: 15px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.contact-form-card {
+  padding: 28px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contact-field label {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--color-gray-500);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.contact-field input,
+.contact-field select,
+.contact-field textarea {
+  border: 1.5px solid var(--color-gray-300);
+  border-radius: var(--radius-sm);
+  padding: 11px 12px;
+  font-size: 14.5px;
+  font-family: inherit;
+  color: var(--color-charcoal);
+  background: var(--color-white);
+  transition: border-color 0.15s ease;
+}
+
+.contact-field textarea {
+  resize: vertical;
+}
+
+.contact-field input:focus,
+.contact-field select:focus,
+.contact-field textarea:focus {
+  outline: none;
+  border-color: var(--color-deep-green);
+}
+
+.contact-success {
+  text-align: center;
+  padding: 24px 0;
+}
+
+.contact-success-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--color-fresh-green-light);
+  color: var(--color-deep-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 auto 16px;
+}
+
+.contact-success h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.contact-success p {
+  font-size: 14.5px;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.contact-info-card {
+  padding: 20px;
+}
+
+.contact-info-card h3 {
+  font-size: 13.5px;
+  color: var(--color-gray-500);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 6px;
+}
+
+.contact-info-card p {
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--color-charcoal);
+}
+
+@media (max-width: 900px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact-content {
+    padding: 28px 20px 56px;
+  }
+
+  .contact-heading h1 {
+    font-size: 24px;
+  }
+
+  .contact-form-card {
+    padding: 22px;
+  }
+}

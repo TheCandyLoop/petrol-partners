@@ -1,0 +1,143 @@
+.ride-details-content {
+  padding: 32px 24px 80px;
+}
+
+.ride-details-back {
+  display: inline-block;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--color-gray-700);
+  margin-bottom: 20px;
+}
+
+.ride-details-back:hover {
+  color: var(--color-deep-green);
+}
+
+.ride-details-heading {
+  margin-bottom: 24px;
+}
+
+.ride-details-heading h1 {
+  font-size: 30px;
+  color: var(--color-charcoal);
+}
+
+.ride-details-tagline {
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-deep-green);
+}
+
+.ride-details-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.ride-details-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ride-details-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: sticky;
+  top: 24px;
+}
+
+.ride-details-route-card,
+.ride-details-reviews-card {
+  padding: 24px;
+}
+
+.ride-details-section-title {
+  font-size: 16px;
+  color: var(--color-charcoal);
+  margin-bottom: 20px;
+}
+
+.ride-details-route-footer {
+  margin-top: 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-gray-100);
+  font-size: 13.5px;
+  color: var(--color-gray-500);
+}
+
+.ride-details-no-reviews {
+  font-size: 14px;
+}
+
+.ride-details-request-card {
+  padding: 24px;
+  text-align: center;
+}
+
+.ride-details-request-note {
+  margin-top: 12px;
+  font-size: 12.5px;
+  color: var(--color-gray-500);
+}
+
+.ride-details-success-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--color-fresh-green-light);
+  color: var(--color-deep-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 auto 12px;
+}
+
+.ride-details-success h3 {
+  font-size: 17px;
+  margin-bottom: 6px;
+}
+
+.ride-details-success p {
+  font-size: 13.5px;
+}
+
+.ride-details-notfound {
+  padding: 96px 24px;
+  text-align: center;
+}
+
+.ride-details-notfound h1 {
+  font-size: 26px;
+  margin-bottom: 12px;
+}
+
+.ride-details-notfound p {
+  margin-bottom: 24px;
+}
+
+@media (max-width: 900px) {
+  .ride-details-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ride-details-sidebar {
+    position: static;
+  }
+}
+
+@media (max-width: 640px) {
+  .ride-details-content {
+    padding: 24px 20px 56px;
+  }
+
+  .ride-details-heading h1 {
+    font-size: 24px;
+  }
+}

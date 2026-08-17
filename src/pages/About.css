@@ -1,0 +1,116 @@
+.about-content {
+  padding: 40px 24px 80px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-hero {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 44px;
+}
+
+.about-hero h1 {
+  font-size: 32px;
+  color: var(--color-charcoal);
+  margin: 10px 0 16px;
+}
+
+.about-hero-copy {
+  font-size: 16px;
+}
+
+.about-values {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.about-value-card {
+  padding: 24px;
+}
+
+.about-value-card h3 {
+  font-size: 15.5px;
+  color: var(--color-deep-green);
+  margin-bottom: 10px;
+}
+
+.about-value-card p {
+  font-size: 13.5px;
+}
+
+.about-story {
+  padding: 32px;
+  margin-bottom: 44px;
+}
+
+.about-story h2 {
+  font-size: 20px;
+  color: var(--color-charcoal);
+  margin-bottom: 14px;
+}
+
+.about-story p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.about-cta {
+  text-align: center;
+  padding: 40px 24px;
+  border-radius: var(--radius-lg);
+  background: var(--gradient-hero);
+  color: var(--color-white);
+}
+
+.about-cta h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.about-cta-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-cta .btn-secondary {
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--color-white);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.about-cta .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+@media (max-width: 768px) {
+  .about-values {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .about-content {
+    padding: 28px 20px 56px;
+  }
+
+  .about-hero h1 {
+    font-size: 24px;
+  }
+
+  .about-story {
+    padding: 24px;
+  }
+
+  .about-cta-actions {
+    flex-direction: column;
+  }
+
+  .about-cta-actions .btn {
+    width: 100%;
+  }
+}

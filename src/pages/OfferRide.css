@@ -1,0 +1,150 @@
+.offer-ride-content {
+  padding: 40px 24px 80px;
+}
+
+.offer-ride-heading {
+  max-width: 640px;
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.offer-ride-heading h1 {
+  font-size: 30px;
+  color: var(--color-charcoal);
+  margin-bottom: 10px;
+}
+
+.offer-ride-tagline {
+  font-size: 15px;
+}
+
+.offer-ride-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 24px;
+  align-items: start;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.offer-ride-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: sticky;
+  top: 24px;
+}
+
+.offer-ride-sidebar-note {
+  font-size: 12.5px;
+  color: var(--color-gray-500);
+  padding: 0 4px;
+}
+
+.offer-ride-preview-main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.offer-ride-preview-card {
+  padding: 24px;
+  width: 100%;
+}
+
+.offer-ride-section-title {
+  font-size: 16px;
+  color: var(--color-charcoal);
+  margin-bottom: 20px;
+}
+
+.offer-ride-preview-footer {
+  margin-top: 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-gray-100);
+  font-size: 13.5px;
+  color: var(--color-gray-500);
+}
+
+.offer-ride-success {
+  max-width: 520px;
+  margin: 40px auto 0;
+  padding: 48px 32px;
+  text-align: center;
+}
+
+.offer-ride-success-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--color-fresh-green-light);
+  color: var(--color-deep-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0 auto 20px;
+}
+
+.offer-ride-success h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.offer-ride-success p {
+  font-size: 14.5px;
+}
+
+.offer-ride-success-summary {
+  margin-top: 18px;
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--color-deep-green);
+}
+
+.offer-ride-success-dot {
+  color: var(--color-gray-300);
+  margin: 0 8px;
+}
+
+.offer-ride-success-actions {
+  margin-top: 28px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .offer-ride-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .offer-ride-sidebar {
+    position: static;
+  }
+}
+
+@media (max-width: 640px) {
+  .offer-ride-content {
+    padding: 28px 20px 56px;
+  }
+
+  .offer-ride-heading h1 {
+    font-size: 24px;
+  }
+
+  .offer-ride-success {
+    padding: 36px 24px;
+  }
+
+  .offer-ride-success-actions {
+    flex-direction: column;
+  }
+
+  .offer-ride-success-actions .btn {
+    width: 100%;
+  }
+}
