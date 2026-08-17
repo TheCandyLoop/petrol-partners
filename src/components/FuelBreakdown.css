@@ -1,0 +1,48 @@
+.fuel-breakdown {
+  padding: 24px;
+}
+
+.fuel-breakdown-title {
+  font-size: 16px;
+  color: var(--color-charcoal);
+  margin-bottom: 16px;
+}
+
+.fuel-breakdown-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.fuel-breakdown-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14.5px;
+  color: var(--color-gray-700);
+}
+
+.fuel-breakdown-zero {
+  color: var(--color-deep-green);
+  font-weight: 600;
+}
+
+.fuel-breakdown-total {
+  margin-top: 4px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--color-gray-300);
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--color-charcoal);
+}
+
+.fuel-breakdown-note {
+  margin-top: 18px;
+  background: var(--color-fresh-green-light);
+  color: var(--color-deep-green);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  text-align: center;
+}

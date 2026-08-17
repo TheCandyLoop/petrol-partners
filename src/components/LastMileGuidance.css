@@ -1,0 +1,56 @@
+.last-mile {
+  padding: 24px;
+}
+
+.last-mile-title {
+  font-size: 16px;
+  color: var(--color-charcoal);
+  margin-bottom: 10px;
+}
+
+.last-mile-note {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.last-mile-options {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.last-mile-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 14px 8px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--color-gray-300);
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--color-gray-700);
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.last-mile-option:hover {
+  border-color: var(--color-deep-green);
+  background: var(--color-fresh-green-light);
+}
+
+.last-mile-option-icon {
+  font-size: 20px;
+}
+
+.last-mile-disclaimer {
+  margin-top: 16px;
+  font-size: 12px;
+  color: var(--color-gray-500);
+}
+
+@media (max-width: 480px) {
+  .last-mile-options {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

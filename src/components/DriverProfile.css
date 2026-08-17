@@ -1,0 +1,91 @@
+.driver-profile {
+  padding: 24px;
+}
+
+.driver-profile-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.driver-profile-avatar {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: var(--radius-full);
+  background: var(--gradient-hero);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.driver-profile-name {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--color-charcoal);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.driver-profile-pending-badge {
+  background: var(--color-gray-100);
+  color: var(--color-gray-700);
+}
+
+.driver-profile-stats {
+  margin-top: 6px;
+  font-size: 13.5px;
+  color: var(--color-gray-700);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.driver-profile-rating {
+  color: var(--color-deep-green);
+  font-weight: 700;
+}
+
+.driver-profile-dot {
+  color: var(--color-gray-300);
+}
+
+.driver-profile-bio {
+  margin-top: 18px;
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+
+.driver-profile-vehicle {
+  margin-top: 20px;
+  display: flex;
+  gap: 24px;
+  padding-top: 18px;
+  border-top: 1px solid var(--color-gray-100);
+}
+
+.driver-profile-vehicle-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.driver-profile-vehicle-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-gray-500);
+  font-weight: 600;
+}
+
+.driver-profile-vehicle-value {
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--color-charcoal);
+}

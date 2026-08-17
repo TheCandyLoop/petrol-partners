@@ -1,0 +1,24 @@
+.safety-feature-card {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.safety-feature-icon {
+  font-size: 24px;
+}
+
+.safety-feature-title {
+  font-size: 16px;
+  color: var(--color-charcoal);
+}
+
+.safety-feature-description {
+  font-size: 13.5px;
+  line-height: 1.6;
+}
+
+.safety-feature-action {
+  margin-top: 8px;
+}

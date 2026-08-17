@@ -1,0 +1,39 @@
+.trust-safety {
+  background: var(--color-white);
+}
+
+.trust-safety-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.trust-safety-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-100);
+  border-radius: var(--radius-md);
+  padding: 20px 22px;
+  box-shadow: var(--shadow-sm);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-charcoal);
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.trust-safety-item:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.trust-safety-icon {
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .trust-safety-grid {
+    grid-template-columns: 1fr;
+  }
+}

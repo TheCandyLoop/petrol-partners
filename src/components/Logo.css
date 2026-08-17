@@ -1,0 +1,36 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.logo-mark {
+  width: 34px;
+  height: 34px;
+  display: block;
+}
+
+.logo-mark svg {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-text {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--color-charcoal);
+}
+
+.logo-text-accent {
+  color: var(--color-deep-green);
+}
+
+.logo-light .logo-text {
+  color: var(--color-white);
+}
+
+.logo-light .logo-text-accent {
+  color: #bdf0d4;
+}

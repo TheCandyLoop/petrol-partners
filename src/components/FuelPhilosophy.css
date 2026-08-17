@@ -1,0 +1,44 @@
+.philosophy-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.philosophy-card {
+  background: var(--color-gray-100);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+}
+
+.philosophy-icon {
+  font-size: 32px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  margin-bottom: 20px;
+  box-shadow: var(--shadow-sm);
+}
+
+.philosophy-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: var(--color-charcoal);
+}
+
+.philosophy-card p {
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .philosophy-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .philosophy-card {
+    padding: 28px;
+  }
+}
